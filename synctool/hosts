@@ -1,0 +1,22 @@
+#put this file to $HOME
+#10.0.0.5  
+#10.0.0.5  ansible_connection=ssh ansible_user=root
+#10.0.0.5  ansible_ssh_user=admin ansible_ssh_private_key_file=~/.ssh/id_rsa
+#10.0.0.2 ansible_connection=winrm ansible_user=xxxxxx ansible_password=xxxxxx ansible_port=5985 ansible_winrm_server_cert_validation=ignore
+
+[gen8]
+10.0.0.2
+
+[dsm]
+10.0.0.5
+
+[gen8:vars]
+ansible_connection=winrm
+ansible_user=administrator 
+ansible_password=xxxxxx
+ansible_port=5985 
+ansible_winrm_server_cert_validation=ignore
+
+[dsm:vars]
+ansible_connection=ssh 
+ansible_user=root

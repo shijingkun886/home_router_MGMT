@@ -1,0 +1,5 @@
+#put this file to ~/.ddns_config/aliyun_config
+#add you aliyun accessKeyId and accessKeySecret here
+
+accessKeyId = xxxxxxxxxxxxx
+accessKeySecret = xxxxxxxxxxxxxxxxxxxxxxxxxxxxx

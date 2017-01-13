@@ -1,0 +1,5 @@
+---
+- hosts: dsm
+  tasks:
+  - name: shutdown dsm by delay 60 seconds
+    command: /sbin/shutdown -h +1

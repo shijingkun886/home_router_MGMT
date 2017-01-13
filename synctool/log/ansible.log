@@ -1,0 +1,303 @@
+2017-01-06 22:54:38,339 p=3545 u=admin |  PLAY [gen8] ********************************************************************
+2017-01-06 22:54:38,821 p=3545 u=admin |  TASK [setup] *******************************************************************
+2017-01-06 22:54:39,378 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-06 22:54:39,429 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-06 22:54:39,488 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:54:40,123 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-06 22:54:40,159 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:54:40,211 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:54:40,526 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-06 22:54:40,863 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-06 22:54:40,895 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:54:40,961 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:54:45,395 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 8375
+2017-01-06 22:54:45,430 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:54:45,489 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-06 22:54:45,504 p=3545 u=admin |  ok: [10.0.0.2]
+2017-01-06 22:54:45,517 p=3545 u=admin |  TASK [shutdown gen8 server by delay 10 seconds] ********************************
+2017-01-06 22:54:45,812 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-06 22:54:45,859 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-06 22:54:45,903 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:54:46,548 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-06 22:54:46,580 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:54:46,625 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:54:46,932 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-06 22:54:47,306 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-06 22:54:47,337 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:54:47,420 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:54:48,617 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 3431
+2017-01-06 22:54:48,651 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:54:48,680 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-06 22:54:48,692 p=3545 u=admin |  changed: [10.0.0.2]
+2017-01-06 22:54:48,704 p=3545 u=admin |  PLAY RECAP *********************************************************************
+2017-01-06 22:54:48,705 p=3545 u=admin |  10.0.0.2                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-06 22:55:42,442 p=3607 u=admin |  Using /tmp/mnt/sda2/Monitor/MGMT/ansible.cfg as config file
+2017-01-06 22:55:47,194 p=3607 u=admin |  PLAY [gen8] ********************************************************************
+2017-01-06 22:55:47,621 p=3607 u=admin |  TASK [setup] *******************************************************************
+2017-01-06 22:55:48,290 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-06 22:55:48,341 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-06 22:55:48,393 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:55:49,017 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-06 22:55:49,049 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:55:49,094 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:55:49,426 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-06 22:55:49,761 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-06 22:55:49,795 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:55:49,863 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:55:54,195 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 8375
+2017-01-06 22:55:54,230 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:55:54,293 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-06 22:55:54,323 p=3607 u=admin |  ok: [10.0.0.2] => {"ansible_facts": {"ansible_architecture": "64 位", "ansible_bios_date": "11/02/2015", "ansible_bios_version": "J06", "ansible_date_time": {"date": "2017-01-06", "day": "06", "epoch": "1483743353.46187", "hour": "22", "iso8601": "2017-01-06T14:55:53Z", "iso8601_basic": "20170106T225553430619", "iso8601_basic_short": "20170106T225553", "iso8601_micro": "2017-01-06T14:55:53.430619Z", "minute": "55", "month": "01", "second": "53", "time": "22:55:53", "tz": "China Standard Time", "tz_offset": "+08:00", "weekday": "Friday", "weekday_number": "5", "weeknumber": "0", "year": "2017"}, "ansible_distribution": "Microsoft Windows Server 2012 R2 Standard", "ansible_distribution_major_version": "6", "ansible_distribution_version": "6.3.9600.0", "ansible_domain": "", "ansible_env": {"ALLUSERSPROFILE": "C:\\ProgramData", "APPDATA": "C:\\Users\\Administrator\\AppData\\Roaming", "COMPUTERNAME": "KUNNAS", "ComSpec": "C:\\Windows\\system32\\cmd.exe", "CommonProgramFiles": "C:\\Program Files\\Common Files", "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files", "CommonProgramW6432": "C:\\Program Files\\Common Files", "FP_NO_HOST_CHECK": "NO", "HOMEDRIVE": "C:", "HOMEPATH": "\\Users\\Administrator", "LOCALAPPDATA": "C:\\Users\\Administrator\\AppData\\Local", "LOGONSERVER": "\\\\KUNNAS", "MODULE_COMPLEX_ARGS": "{\"_ansible_version\": \"2.2.0.0\", \"_ansible_selinux_special_fs\": [\"fuse\", \"nfs\", \"vboxsf\", \"ramfs\"], \"_ansible_no_log\": false, \"gather_timeout\": 10, \"_ansible_module_name\": \"setup\", \"_ansible_verbosity\": 1, \"_ansible_syslog_facility\": \"LOG_USER\", \"gather_subset\": \"all\", \"_ansible_diff\": false, \"_ansible_debug\": false, \"_ansible_check_mode\": false}", "NUMBER_OF_PROCESSORS": "2", "OS": "Windows_NT", "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL", "PROCESSOR_ARCHITECTURE": "AMD64", "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel", "PROCESSOR_LEVEL": "6", "PROCESSOR_REVISION": "3a09", "PROMPT": "$P$G", "PSExecutionPolicyPreference": "Unrestricted", "PSModulePath": "C:\\Users\\Administrator\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules", "PUBLIC": "C:\\Users\\Public", "Path": "C:\\Program Files (x86)\\SepanderSoft;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0", "ProgramData": "C:\\ProgramData", "ProgramFiles": "C:\\Program Files", "ProgramFiles(x86)": "C:\\Program Files (x86)", "ProgramW6432": "C:\\Program Files", "SystemDrive": "C:", "SystemRoot": "C:\\Windows", "TEMP": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp", "TMP": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp", "USERDOMAIN": "KUNNAS", "USERDOMAIN_ROAMINGPROFILE": "KUNNAS", "USERNAME": "Administrator", "USERPROFILE": "C:\\Users\\Administrator", "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox", "windir": "C:\\Windows"}, "ansible_fqdn": "kunNas.", "ansible_hostname": "KUNNAS", "ansible_interfaces": [{"default_gateway": "10.0.0.1", "dns_domain": null, "interface_index": 13, "interface_name": "HP Ethernet 1Gb 2-port 332i Adapter #2"}, {"default_gateway": "10.0.0.1", "dns_domain": null, "interface_index": 19, "interface_name": "Hyper-V 虚拟以太网适配器 #2"}], "ansible_ip_addresses": ["10.0.0.2", "fe80::5446:6b37:a236:e8d4", "10.0.0.3", "fe80::2426:3315:33e1:7d8"], "ansible_kernel": "6.3.9600.0", "ansible_lastboot": "2017-01-02 20:53:07Z", "ansible_machine_id": "S-1-5-21-954442315-112257437-3357103533", "ansible_memtotal_mb": 12125, "ansible_nodename": "kunNas.", "ansible_os_family": "Windows", "ansible_os_name": "Microsoft Windows Server 2012 R2 Standard", "ansible_owner_contact": "", "ansible_owner_name": "kun", "ansible_powershell_version": 4, "ansible_processor": ["GenuineIntel", "Intel(R) Celeron(R) CPU G1610T @ 2.30GHz", "GenuineIntel", "Intel(R) Celeron(R) CPU G1610T @ 2.30GHz"], "ansible_processor_cores": 2, "ansible_processor_count": 1, "ansible_processor_threads_per_core": 1, "ansible_processor_vcpus": 2, "ansible_product_name": "ProLiant MicroServer Gen8", "ansible_product_serial": "CZ162201ML      ", "ansible_reboot_pending": true, "ansible_swaptotal_mb": 0, "ansible_system": "Win32NT", "ansible_system_description": "", "ansible_system_vendor": "HP", "ansible_uptime_seconds": 352966, "ansible_user_dir": "C:\\Users\\Administrator", "ansible_user_gecos": "", "ansible_user_id": "Administrator", "ansible_user_sid": "S-1-5-21-954442315-112257437-3357103533-500", "ansible_windows_domain": "WORKGROUP", "module_setup": true}, "changed": false}
+2017-01-06 22:55:54,336 p=3607 u=admin |  TASK [shutdown gen8 server by delay 10 seconds] ********************************
+2017-01-06 22:55:54,642 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-06 22:55:54,689 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-06 22:55:54,750 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:55:55,367 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-06 22:55:55,401 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:55:55,448 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:55:55,761 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-06 22:55:56,107 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-06 22:55:56,139 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:55:56,208 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 22:55:57,391 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 3431
+2017-01-06 22:55:57,424 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 22:55:57,455 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-06 22:55:57,476 p=3607 u=admin |  changed: [10.0.0.2] => {"changed": true, "cmd": "ipconfig", "delta": "0:00:00.062498", "end": "2017-01-06 02:55:58.071279", "rc": 0, "start": "2017-01-06 02:55:58.008780", "stderr": "", "stdout": "\r\nWindows IP Configuration\r\n\r\n\r\nEthernet adapter vEthernet (VSWITCH):\r\n\r\n   Connection-specific DNS Suffix  . : \r\n   Link-local IPv6 Address . . . . . : fe80::2426:3315:33e1:7d8%19\r\n   IPv4 Address. . . . . . . . . . . : 10.0.0.3\r\n   Subnet Mask . . . . . . . . . . . : 255.255.255.0\r\n   Default Gateway . . . . . . . . . : 10.0.0.1\r\n\r\nEthernet adapter ��̫�� 2:\r\n\r\n   Connection-specific DNS Suffix  . : \r\n   Link-local IPv6 Address . . . . . : fe80::5446:6b37:a236:e8d4%13\r\n   IPv4 Address. . . . . . . . . . . : 10.0.0.2\r\n   Subnet Mask . . . . . . . . . . . : 255.255.255.0\r\n   Default Gateway . . . . . . . . . : 10.0.0.1\r\n\r\nTunnel adapter isatap.{AF7025CF-871D-4B11-BB65-5F28CAE3FE5E}:\r\n\r\n   Media State . . . . . . . . . . . : Media disconnected\r\n   Connection-specific DNS Suffix  . : \r\n\r\nTunnel adapter isatap.{F0A322C4-F5B1-4D6C-8207-2051C5458042}:\r\n\r\n   Media State . . . . . . . . . . . : Media disconnected\r\n   Connection-specific DNS Suffix  . : \r\n\r\nTunnel adapter Teredo Tunneling Pseudo-Interface:\r\n\r\n   Connection-specific DNS Suffix  . : \r\n   IPv6 Address. . . . . . . . . . . : 2001:0:d5c:5a30:34fe:18dd:f5ff:fffc\r\n   Link-local IPv6 Address . . . . . : fe80::34fe:18dd:f5ff:fffc%17\r\n   Default Gateway . . . . . . . . . : ::\r\n", "stdout_lines": ["", "Windows IP Configuration", "", "", "Ethernet adapter vEthernet (VSWITCH):", "", "   Connection-specific DNS Suffix  . : ", "   Link-local IPv6 Address . . . . . : fe80::2426:3315:33e1:7d8%19", "   IPv4 Address. . . . . . . . . . . : 10.0.0.3", "   Subnet Mask . . . . . . . . . . . : 255.255.255.0", "   Default Gateway . . . . . . . . . : 10.0.0.1", "", "Ethernet adapter ��̫�� 2:", "", "   Connection-specific DNS Suffix  . : ", "   Link-local IPv6 Address . . . . . : fe80::5446:6b37:a236:e8d4%13", "   IPv4 Address. . . . . . . . . . . : 10.0.0.2", "   Subnet Mask . . . . . . . . . . . : 255.255.255.0", "   Default Gateway . . . . . . . . . : 10.0.0.1", "", "Tunnel adapter isatap.{AF7025CF-871D-4B11-BB65-5F28CAE3FE5E}:", "", "   Media State . . . . . . . . . . . : Media disconnected", "   Connection-specific DNS Suffix  . : ", "", "Tunnel adapter isatap.{F0A322C4-F5B1-4D6C-8207-2051C5458042}:", "", "   Media State . . . . . . . . . . . : Media disconnected", "   Connection-specific DNS Suffix  . : ", "", "Tunnel adapter Teredo Tunneling Pseudo-Interface:", "", "   Connection-specific DNS Suffix  . : ", "   IPv6 Address. . . . . . . . . . . : 2001:0:d5c:5a30:34fe:18dd:f5ff:fffc", "   Link-local IPv6 Address . . . . . : fe80::34fe:18dd:f5ff:fffc%17", "   Default Gateway . . . . . . . . . : ::"], "warnings": []}
+2017-01-06 22:55:57,488 p=3607 u=admin |  PLAY RECAP *********************************************************************
+2017-01-06 22:55:57,489 p=3607 u=admin |  10.0.0.2                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-06 22:58:25,476 p=3744 u=admin |  Using /tmp/mnt/sda2/Monitor/MGMT/ansible.cfg as config file
+2017-01-06 22:58:30,000 p=3744 u=admin |  PLAY [dsm] *********************************************************************
+2017-01-06 22:58:30,427 p=3744 u=admin |  TASK [setup] *******************************************************************
+2017-01-06 22:58:41,226 p=3744 u=admin |  fatal: [10.0.0.5]: FAILED! => {"failed": true, "msg": "failed to transfer file to /tmp/ansible-tmp-1483714712.89-211180608900167/setup.py:\n\nWARNING: Ignoring unknown option -C\n/usr/bin/dbclient: Ignoring unknown configuration option 'ControlMaster=auto'\n/usr/bin/dbclient: Ignoring unknown configuration option 'ControlPersist=60s'\n/usr/bin/dbclient: Ignoring unknown configuration option 'StrictHostKeyChecking=no'\n/usr/bin/dbclient: Ignoring unknown configuration option 'IdentityFile=\"/root/.ssh/id_rsa\"'\n/usr/bin/dbclient: Ignoring unknown configuration option 'KbdInteractiveAuthentication=no'\n/usr/bin/dbclient: Ignoring unknown configuration option 'PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey'\n/usr/bin/dbclient: Ignoring unknown configuration option 'PasswordAuthentication=no'\n/usr/bin/dbclient: Ignoring unknown configuration option 'User=root'\n/usr/bin/dbclient: Ignoring unknown configuration option 'ConnectTimeout=10'\n/usr/bin/dbclient: Ignoring unknown configuration option 'ControlPath=/tmp/home/root/.ansible/cp/ansible-ssh-%h-%p-%r'\n\n/usr/bin/dbclient: Connection to admin@10.0.0.5:22 exited: Interrupted.\nlost connection\n"}
+2017-01-06 22:58:41,319 p=3744 u=admin |  	to retry, use: --limit @/tmp/mnt/sda2/Monitor/MGMT/playbook/shutdown_dsm.retry
+
+2017-01-06 22:58:41,321 p=3744 u=admin |  PLAY RECAP *********************************************************************
+2017-01-06 22:58:41,322 p=3744 u=admin |  10.0.0.5                   : ok=0    changed=0    unreachable=0    failed=1   
+2017-01-06 22:59:01,120 p=3780 u=admin |  Using /tmp/mnt/sda2/Monitor/MGMT/ansible.cfg as config file
+2017-01-06 22:59:05,721 p=3780 u=admin |  PLAY [dsm] *********************************************************************
+2017-01-06 22:59:06,138 p=3780 u=admin |  TASK [setup] *******************************************************************
+2017-01-06 22:59:09,599 p=3780 u=admin |  ok: [10.0.0.5]
+2017-01-06 22:59:09,621 p=3780 u=admin |  TASK [shutdown dsm by delay 3 seconds] *****************************************
+2017-01-06 22:59:11,301 p=3780 u=admin |  changed: [10.0.0.5] => {"changed": true, "cmd": ["ifconfig"], "delta": "0:00:00.002901", "end": "2017-01-06 22:59:11.407118", "rc": 0, "start": "2017-01-06 22:59:11.404217", "stderr": "", "stdout": "docker0   Link encap:Ethernet  HWaddr 56:84:7A:FE:97:99  \n          inet addr:172.17.42.1  Bcast:0.0.0.0  Mask:255.255.0.0\n          UP BROADCAST MULTICAST  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0 \n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\neth0      Link encap:Ethernet  HWaddr 00:15:5D:2A:B9:04  \n          inet addr:10.0.0.5  Bcast:10.0.0.255  Mask:255.255.255.0\n          inet6 addr: fe80::215:5dff:fe2a:b904/64 Scope:Link\n          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1\n          RX packets:50435026 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:64192242 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:1000 \n          RX bytes:52343980975 (48.7 GiB)  TX bytes:82894405536 (77.2 GiB)\n\nlo        Link encap:Local Loopback  \n          inet addr:127.0.0.1  Mask:255.0.0.0\n          inet6 addr: ::1/128 Scope:Host\n          UP LOOPBACK RUNNING  MTU:65536  Metric:1\n          RX packets:8542 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:8542 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0 \n          RX bytes:1063446 (1.0 MiB)  TX bytes:1063446 (1.0 MiB)", "stdout_lines": ["docker0   Link encap:Ethernet  HWaddr 56:84:7A:FE:97:99  ", "          inet addr:172.17.42.1  Bcast:0.0.0.0  Mask:255.255.0.0", "          UP BROADCAST MULTICAST  MTU:1500  Metric:1", "          RX packets:0 errors:0 dropped:0 overruns:0 frame:0", "          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0", "          collisions:0 txqueuelen:0 ", "          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)", "", "eth0      Link encap:Ethernet  HWaddr 00:15:5D:2A:B9:04  ", "          inet addr:10.0.0.5  Bcast:10.0.0.255  Mask:255.255.255.0", "          inet6 addr: fe80::215:5dff:fe2a:b904/64 Scope:Link", "          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1", "          RX packets:50435026 errors:0 dropped:0 overruns:0 frame:0", "          TX packets:64192242 errors:0 dropped:0 overruns:0 carrier:0", "          collisions:0 txqueuelen:1000 ", "          RX bytes:52343980975 (48.7 GiB)  TX bytes:82894405536 (77.2 GiB)", "", "lo        Link encap:Local Loopback  ", "          inet addr:127.0.0.1  Mask:255.0.0.0", "          inet6 addr: ::1/128 Scope:Host", "          UP LOOPBACK RUNNING  MTU:65536  Metric:1", "          RX packets:8542 errors:0 dropped:0 overruns:0 frame:0", "          TX packets:8542 errors:0 dropped:0 overruns:0 carrier:0", "          collisions:0 txqueuelen:0 ", "          RX bytes:1063446 (1.0 MiB)  TX bytes:1063446 (1.0 MiB)"], "warnings": []}
+2017-01-06 22:59:11,315 p=3780 u=admin |  PLAY RECAP *********************************************************************
+2017-01-06 22:59:11,316 p=3780 u=admin |  10.0.0.5                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-06 23:43:45,958 p=6171 u=admin |  PLAY [dsm] *********************************************************************
+2017-01-06 23:43:46,419 p=6171 u=admin |  TASK [setup] *******************************************************************
+2017-01-06 23:43:59,216 p=6171 u=admin |  fatal: [10.0.0.5]: FAILED! => {"failed": true, "msg": "failed to transfer file to /tmp/ansible-tmp-1483717428.74-259802680949446/setup.py:\n\nWARNING: Ignoring unknown option -C\n/usr/bin/dbclient: Ignoring unknown configuration option 'ControlMaster=auto'\n/usr/bin/dbclient: Ignoring unknown configuration option 'ControlPersist=60s'\n/usr/bin/dbclient: Ignoring unknown configuration option 'StrictHostKeyChecking=no'\n/usr/bin/dbclient: Ignoring unknown configuration option 'IdentityFile=\"/root/.ssh/id_rsa\"'\n/usr/bin/dbclient: Ignoring unknown configuration option 'KbdInteractiveAuthentication=no'\n/usr/bin/dbclient: Ignoring unknown configuration option 'PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey'\n/usr/bin/dbclient: Ignoring unknown configuration option 'PasswordAuthentication=no'\n/usr/bin/dbclient: Ignoring unknown configuration option 'User=root'\n/usr/bin/dbclient: Ignoring unknown configuration option 'ConnectTimeout=10'\n/usr/bin/dbclient: Ignoring unknown configuration option 'ControlPath=/tmp/home/root/.ansible/cp/ansible-ssh-%h-%p-%r'\n\n/usr/bin/dbclient: Connection to admin@10.0.0.5:22 exited: Interrupted.\nlost connection\n"}
+2017-01-06 23:43:59,254 p=6171 u=admin |  	to retry, use: --limit @/tmp/mnt/sda2/Monitor/MGMT/playbook/shutdown_dsm.retry
+
+2017-01-06 23:43:59,255 p=6171 u=admin |  PLAY RECAP *********************************************************************
+2017-01-06 23:43:59,257 p=6171 u=admin |  10.0.0.5                   : ok=0    changed=0    unreachable=0    failed=1   
+2017-01-06 23:48:36,827 p=6396 u=admin |  PLAY [dsm] *********************************************************************
+2017-01-06 23:48:37,288 p=6396 u=admin |  TASK [setup] *******************************************************************
+2017-01-06 23:48:41,013 p=6396 u=admin |  ok: [10.0.0.5]
+2017-01-06 23:48:41,034 p=6396 u=admin |  TASK [shutdown dsm by delay 3 seconds] *****************************************
+2017-01-06 23:49:19,735 p=6396 u=admin |   [ERROR]: User interrupted execution
+
+2017-01-06 23:54:02,340 p=6623 u=admin |  PLAY [dsm] *********************************************************************
+2017-01-06 23:54:02,812 p=6623 u=admin |  TASK [setup] *******************************************************************
+2017-01-06 23:54:06,426 p=6623 u=admin |  ok: [10.0.0.5]
+2017-01-06 23:54:06,449 p=6623 u=admin |  TASK [shutdown dsm by delay 60 seconds] ****************************************
+2017-01-06 23:55:08,472 p=6623 u=admin |  changed: [10.0.0.5]
+2017-01-06 23:55:08,483 p=6623 u=admin |  PLAY RECAP *********************************************************************
+2017-01-06 23:55:08,485 p=6623 u=admin |  10.0.0.5                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-06 23:56:19,574 p=6734 u=admin |  PLAY [gen8] ********************************************************************
+2017-01-06 23:56:20,491 p=6734 u=admin |  TASK [setup] *******************************************************************
+2017-01-06 23:56:21,159 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-06 23:56:21,251 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-06 23:56:21,320 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 23:56:21,935 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-06 23:56:22,005 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 23:56:22,048 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 23:56:22,348 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-06 23:56:22,709 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-06 23:56:22,740 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 23:56:22,804 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 23:56:27,100 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 8375
+2017-01-06 23:56:27,133 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 23:56:27,190 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-06 23:56:27,278 p=6734 u=admin |  ok: [10.0.0.2]
+2017-01-06 23:56:27,292 p=6734 u=admin |  TASK [shutdown gen8 server by delay 10 seconds] ********************************
+2017-01-06 23:56:27,633 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-06 23:56:27,680 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-06 23:56:27,728 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 23:56:28,311 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-06 23:56:28,341 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 23:56:28,384 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 23:56:28,685 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-06 23:56:29,037 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-06 23:56:29,068 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 23:56:29,132 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-06 23:56:30,290 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1675
+2017-01-06 23:56:30,321 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-06 23:56:30,353 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-06 23:56:30,366 p=6734 u=admin |  changed: [10.0.0.2]
+2017-01-06 23:56:30,380 p=6734 u=admin |  PLAY RECAP *********************************************************************
+2017-01-06 23:56:30,381 p=6734 u=admin |  10.0.0.2                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-07 00:12:42,489 p=8202 u=admin |  PLAY [dsm] *********************************************************************
+2017-01-07 00:12:42,973 p=8202 u=admin |  TASK [setup] *******************************************************************
+2017-01-07 00:12:48,553 p=8202 u=admin |  fatal: [10.0.0.5]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.0.0.5 port 22: No route to host\r\n", "unreachable": true}
+2017-01-07 00:12:48,612 p=8202 u=admin |  	to retry, use: --limit @/tmp/mnt/sda2/Monitor/MGMT/playbook/shutdown_dsm.retry
+
+2017-01-07 00:12:48,613 p=8202 u=admin |  PLAY RECAP *********************************************************************
+2017-01-07 00:12:48,615 p=8202 u=admin |  10.0.0.5                   : ok=0    changed=0    unreachable=1    failed=0   
+2017-01-07 00:13:58,618 p=8264 u=admin |  PLAY [gen8] ********************************************************************
+2017-01-07 00:13:59,102 p=8264 u=admin |  TASK [setup] *******************************************************************
+2017-01-07 00:13:59,659 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-07 00:13:59,742 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-07 00:13:59,798 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-07 00:14:00,606 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-07 00:14:00,636 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-07 00:14:00,679 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-07 00:14:00,980 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-07 00:14:01,243 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-07 00:14:01,276 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-07 00:14:01,342 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-07 00:14:05,258 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 8375
+2017-01-07 00:14:05,320 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-07 00:14:05,435 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-07 00:14:05,451 p=8264 u=admin |  ok: [10.0.0.2]
+2017-01-07 00:14:05,465 p=8264 u=admin |  TASK [shutdown gen8 server by delay 10 seconds] ********************************
+2017-01-07 00:14:05,762 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-07 00:14:05,804 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-07 00:14:05,847 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-07 00:14:06,318 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-07 00:14:06,350 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-07 00:14:06,394 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-07 00:14:06,655 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-07 00:14:06,861 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-07 00:14:06,892 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-07 00:14:06,963 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-07 00:14:07,965 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1675
+2017-01-07 00:14:08,001 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-07 00:14:08,030 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-07 00:14:08,043 p=8264 u=admin |  changed: [10.0.0.2]
+2017-01-07 00:14:08,055 p=8264 u=admin |  PLAY RECAP *********************************************************************
+2017-01-07 00:14:08,057 p=8264 u=admin |  10.0.0.2                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-10 09:23:48,464 p=13629 u=admin |  PLAY [dsm] *********************************************************************
+2017-01-10 09:23:48,991 p=13629 u=admin |  TASK [setup] *******************************************************************
+2017-01-10 09:23:51,817 p=13629 u=admin |  fatal: [10.0.0.5]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '10.0.0.5' (ECDSA) to the list of known hosts.\r\nno such identity: /root/.ssh/id_rsa: No such file or directory\r\nPermission denied (publickey,password).\r\n", "unreachable": true}
+2017-01-10 09:23:51,855 p=13629 u=admin |  	to retry, use: --limit @/tmp/mnt/sda2/Monitor/MGMT/playbook/shutdown_dsm.retry
+
+2017-01-10 09:23:51,856 p=13629 u=admin |  PLAY RECAP *********************************************************************
+2017-01-10 09:23:51,857 p=13629 u=admin |  10.0.0.5                   : ok=0    changed=0    unreachable=1    failed=0   
+2017-01-10 09:26:58,606 p=13971 u=admin |  PLAY [dsm] *********************************************************************
+2017-01-10 09:26:59,095 p=13971 u=admin |  TASK [setup] *******************************************************************
+2017-01-10 09:27:04,474 p=13971 u=admin |  ok: [10.0.0.5]
+2017-01-10 09:27:04,509 p=13971 u=admin |  TASK [shutdown dsm by delay 60 seconds] ****************************************
+2017-01-10 09:28:06,963 p=13971 u=admin |  changed: [10.0.0.5]
+2017-01-10 09:28:07,010 p=13971 u=admin |  PLAY RECAP *********************************************************************
+2017-01-10 09:28:07,012 p=13971 u=admin |  10.0.0.5                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-10 09:29:20,951 p=19272 u=admin |  PLAY [gen8] ********************************************************************
+2017-01-10 09:29:21,667 p=19272 u=admin |  TASK [setup] *******************************************************************
+2017-01-10 09:29:23,376 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-10 09:29:23,456 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-10 09:29:23,548 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 09:29:24,861 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-10 09:29:24,897 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 09:29:24,948 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 09:29:25,251 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-10 09:29:25,619 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-10 09:29:25,666 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 09:29:25,749 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 09:29:30,396 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 8375
+2017-01-10 09:29:30,465 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 09:29:30,641 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-10 09:29:30,704 p=19272 u=admin |  ok: [10.0.0.2]
+2017-01-10 09:29:30,717 p=19272 u=admin |  TASK [shutdown gen8 server by delay 10 seconds] ********************************
+2017-01-10 09:29:31,217 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-10 09:29:31,266 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-10 09:29:31,365 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 09:29:31,983 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-10 09:29:32,038 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 09:29:32,093 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 09:29:32,395 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-10 09:29:32,707 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-10 09:29:32,779 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 09:29:32,859 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 09:29:34,095 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1675
+2017-01-10 09:29:34,146 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 09:29:34,185 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-10 09:29:34,204 p=19272 u=admin |  changed: [10.0.0.2]
+2017-01-10 09:29:34,214 p=19272 u=admin |  PLAY RECAP *********************************************************************
+2017-01-10 09:29:34,216 p=19272 u=admin |  10.0.0.2                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-10 17:54:04,695 p=11916 u=admin |  PLAY [dsm] *********************************************************************
+2017-01-10 17:54:05,179 p=11916 u=admin |  TASK [setup] *******************************************************************
+2017-01-10 17:54:09,143 p=11916 u=admin |  ok: [10.0.0.5]
+2017-01-10 17:54:09,162 p=11916 u=admin |  TASK [shutdown dsm by delay 60 seconds] ****************************************
+2017-01-10 17:55:11,082 p=11916 u=admin |  changed: [10.0.0.5]
+2017-01-10 17:55:11,093 p=11916 u=admin |  PLAY RECAP *********************************************************************
+2017-01-10 17:55:11,095 p=11916 u=admin |  10.0.0.5                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-10 17:56:22,773 p=12142 u=admin |  PLAY [gen8] ********************************************************************
+2017-01-10 17:56:23,356 p=12142 u=admin |  TASK [setup] *******************************************************************
+2017-01-10 17:56:24,047 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-10 17:56:24,192 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-10 17:56:24,254 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 17:56:25,934 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-10 17:56:25,963 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 17:56:26,005 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 17:56:26,295 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-10 17:56:26,645 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-10 17:56:26,675 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 17:56:26,738 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 17:56:31,040 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 8131
+2017-01-10 17:56:31,071 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 17:56:31,198 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-10 17:56:31,231 p=12142 u=admin |  ok: [10.0.0.2]
+2017-01-10 17:56:31,245 p=12142 u=admin |  TASK [shutdown gen8 server by delay 10 seconds] ********************************
+2017-01-10 17:56:31,582 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-10 17:56:31,669 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-10 17:56:31,716 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 17:56:32,290 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-10 17:56:32,321 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 17:56:32,408 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 17:56:32,696 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-10 17:56:32,995 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-10 17:56:33,025 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 17:56:33,089 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 17:56:34,354 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1675
+2017-01-10 17:56:34,384 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 17:56:34,412 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-10 17:56:34,424 p=12142 u=admin |  changed: [10.0.0.2]
+2017-01-10 17:56:34,434 p=12142 u=admin |  PLAY RECAP *********************************************************************
+2017-01-10 17:56:34,436 p=12142 u=admin |  10.0.0.2                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-10 22:00:17,535 p=3731 u=admin |  PLAY [dsm] *********************************************************************
+2017-01-10 22:00:18,145 p=3731 u=admin |  TASK [setup] *******************************************************************
+2017-01-10 22:00:23,399 p=3731 u=admin |  ok: [10.0.0.5]
+2017-01-10 22:00:23,431 p=3731 u=admin |  TASK [shutdown dsm by delay 60 seconds] ****************************************
+2017-01-10 22:01:26,044 p=3731 u=admin |  changed: [10.0.0.5]
+2017-01-10 22:01:26,105 p=3731 u=admin |  PLAY RECAP *********************************************************************
+2017-01-10 22:01:26,107 p=3731 u=admin |  10.0.0.5                   : ok=2    changed=1    unreachable=0    failed=0   
+2017-01-10 22:02:36,546 p=4046 u=admin |  PLAY [gen8] ********************************************************************
+2017-01-10 22:02:37,018 p=4046 u=admin |  TASK [setup] *******************************************************************
+2017-01-10 22:02:37,564 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-10 22:02:37,633 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-10 22:02:37,688 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 22:02:38,781 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-10 22:02:38,817 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 22:02:38,862 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 22:02:39,162 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-10 22:02:39,518 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-10 22:02:39,554 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 22:02:39,638 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 22:02:44,145 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 8375
+2017-01-10 22:02:44,181 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 22:02:44,243 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-10 22:02:44,258 p=4046 u=admin |  ok: [10.0.0.2]
+2017-01-10 22:02:44,273 p=4046 u=admin |  TASK [shutdown gen8 server by delay 10 seconds] ********************************
+2017-01-10 22:02:44,598 requests.packages.urllib3.connectionpool Starting new HTTP connection (1): 10.0.0.2
+2017-01-10 22:02:44,642 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1624
+2017-01-10 22:02:44,734 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 22:02:45,328 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1411
+2017-01-10 22:02:45,365 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 22:02:45,416 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 22:02:45,717 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 753
+2017-01-10 22:02:46,035 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1367
+2017-01-10 22:02:46,078 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 22:02:46,147 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 847
+2017-01-10 22:02:47,481 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 1675
+2017-01-10 22:02:47,511 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 757
+2017-01-10 22:02:47,539 requests.packages.urllib3.connectionpool http://10.0.0.2:5985 "POST /wsman HTTP/1.1" 200 602
+2017-01-10 22:02:47,552 p=4046 u=admin |  changed: [10.0.0.2]
+2017-01-10 22:02:47,564 p=4046 u=admin |  PLAY RECAP *********************************************************************
+2017-01-10 22:02:47,565 p=4046 u=admin |  10.0.0.2                   : ok=2    changed=1    unreachable=0    failed=0   
