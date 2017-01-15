@@ -1,0 +1,9 @@
+---
+- hosts: gen8
+  
+  tasks:
+  - name: stop weiyun service wydrive.exe
+    win_command: taskkill /im wydrive.exe /f /t
+
+  - name: stop weiyun service weiyun.exe
+    win_command: taskkill /im weiyun.exe /f /t 

@@ -1,0 +1,8 @@
+---
+- hosts: gen8
+  
+  tasks:
+  - name: start weiyun service wydrive.exe
+    #win_command: wydrive.exe
+    #args:
+    #  chdir: C:\Program Files (x86)\Tencent\weiyundisk\Bin
