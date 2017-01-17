@@ -7,6 +7,7 @@ PLAYBOOK_HOME="/mnt/sda1/MGMT/synctool"
 #date +"%Y%m%d%H%M%S" 
 
 #power off.
+	cd /mnt/sda1/MGMT/synctool
 	echo "shutdonn DSM Server......"
 	#cp /tmp/mnt/sda2/Monitor/MGMT/id_rsa /tmp/home/root/.ssh
 	cd $PLAYBOOK_HOME

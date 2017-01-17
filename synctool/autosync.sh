@@ -39,7 +39,8 @@ sleep 60
 
 
 ########SYNC LROOM DV Records##########
-
+echo $PATH
+ls -la ~/.ssh/
 src="/tmp/mnt/sda2/Monitor/HN1A005G8R00087"
 dst="root@10.0.0.5:/volume1/LocalStore/NAS_STORAGE/Records/LroomDV"
 echo "`date +"%Y%m%d%H%M%S"`:running lroom records rsync..."
@@ -60,7 +61,7 @@ dst=""
 if [ $current_state -ne 0 ]; then 
 	echo "shutdonn DSM Server......"
 	cp /tmp/mnt/sda2/Monitor/MGMT/id_rsa /tmp/home/root/.ssh
-	cd /mnt/sda2/Monitor/MGMT/
+	cd /mnt/sda1/MGMT/synctool
 	PATH=/opt/bin:$PATH ansible-playbook playbook/shutdown_dsm.yml
 	sleep 60
 	echo "shutdown Gen8 Server......"
