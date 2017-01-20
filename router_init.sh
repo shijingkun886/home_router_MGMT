@@ -35,3 +35,8 @@ echo "$IP $accessKeyID $accessKeySecret $recordID $RR"
 /mnt/sda1/MGMT/ddns/aliyun_ddns.py $IP $accessKeyID $accessKeySecret $recordID $RR
 
 /sbin/ddns_custom_updated 
+
+
+
+#Setting Thunder
+cd /tmp/mnt/sda1/MGMT/Thunder && ./portal
