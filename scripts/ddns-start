@@ -1,0 +1,22 @@
+#!/bin/sh
+DDNS_CONFIG_FILE="$HOME/.ddns_config/aliyun_config"
+accessKeyID=`grep "accessKeyId" $DDNS_CONFIG_FILE|sed 's/.*=\ //g'`
+accessKeySecret=`grep "accessKeySecret" $DDNS_CONFIG_FILE|sed 's/.*=\ //g'`
+recordID='89863902'
+RR='ssh'
+IP=`ip addr show ppp0 | grep "inet\b" | awk '{print $2}' | cut -d/ -f1`
+CURRENT_RESOLVED_IP=`nslookup ssh.shikun.win 223.5.5.5|tail -n 2|grep Address|awk -F": " '{print $2}'`
+echo IP:$IP
+echo CURRENT_RESOLVED_IP:$CURRENT_RESOLVED_IP
+
+if [ X"$IP" == X"$CURRENT_RESOLVED_IP" ]
+then
+	echo "ssh.shikun.win is up-to-date, not updated it."
+        /sbin/ddns_custom_updated 0
+	exit 
+fi
+
+echo "$IP $accessKeyID $accessKeySecret $recordID $RR"
+/mnt/sda1/MGMT/ddns/aliyun_ddns.py $IP $accessKeyID $accessKeySecret $recordID $RR
+
+/sbin/ddns_custom_updated 
