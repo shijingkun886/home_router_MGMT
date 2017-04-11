@@ -13,6 +13,7 @@ cru a ScheduleSyncfile "0 4 * * * /tmp/mnt/sda1/MGMT/synctool/autosync.sh >> /tm
 cru a PowerOnGen8 "0 19 * * 5 /tmp/mnt/sda1/MGMT/synctool/bootServer.sh >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1"
 cru a PowerOffGen8 "0 1 * * 1 /tmp/mnt/sda1/MGMT/synctool/offServer.sh >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1"
 cru a UpdateAliyunDDNS "*/10 * * * * /jffs/scripts/ddns-start >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1"
+cru a GoogleHostsUpdate "1 6 * * * /tmp/mnt/sda1/MGMT/scripts/google_hosts.sh >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1"
 
 #set alias
 [ `which vim`X != X ] && alias vi=vim
@@ -43,3 +44,7 @@ echo "$IP $accessKeyID $accessKeySecret $recordID $RR"
 
 #Setting Thunder
 #cd /tmp/mnt/sda1/MGMT/Thunder && ./portal
+
+#Setting dnsmasq to support google hosts 
+mkdir -p /etc/hosts.d
+echo "addn-hosts=/etc/hosts.d/hosts.dnsmasq" >> /jffs/configs/dnsmasq.conf.add
