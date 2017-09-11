@@ -41,8 +41,8 @@ sleep 60
 ########SYNC LROOM DV Records##########
 echo $PATH
 ls -la ~/.ssh/
-src="/tmp/mnt/sda2/Monitor/HN1A005G8R00087"
-dst="root@10.0.0.5:/volume1/LocalStore/NAS_STORAGE/Records/LroomDV"
+src="/tmp/mnt/sda2/Monitor/HN1A005FAT10058"
+dst="root@10.0.0.5:/volume1/MediaStore/LocalStorage/Records/LroomDV/"
 echo "`date +"%Y%m%d%H%M%S"`:running lroom records rsync..."
 cp /tmp/mnt/sda2/Monitor/id_dropbear /tmp/home/root/.ssh
 rsync -zarv --include="*/" --include="*.mp4" --exclude="*" -e "ssh -y" $src  $dst --rsync-path=/usr/syno/bin/rsync 

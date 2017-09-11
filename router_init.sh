@@ -5,6 +5,9 @@
 #Setting up PATH
 export PATH=$PATH:/opt/local/bin
 
+#Setting up git env var
+export GIT_SSH_COMMAND="/opt/bin/ssh -i ~/.ssh/id_rsa_git"
+
 #Setting up root user home
 rm -rf /tmp/home/root && ln -s /tmp/mnt/sda1/admin /tmp/home/root
 
