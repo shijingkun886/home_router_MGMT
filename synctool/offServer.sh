@@ -3,7 +3,9 @@ export PATH=$PATH:/opt/local/bin
 GEN8ServerIP="10.0.0.2"
 PLAYBOOK_HOME="/mnt/sda1/MGMT/synctool"
 OFF_REASON="Manual Poweroff"
-if [ "$1"a -ne a ]; then
+echo $1
+if [ "$1"a != "a" ]; then
+	echo Reason: $1
 	OFF_REASON=$1
 fi
 
