@@ -12,4 +12,4 @@ if [ $succ_count -lt 5 ]; then
 fi
 
 #if status changed, send notify to owner
-
+#plan to use https://sc.ftqq.com/3.version for mesage push
