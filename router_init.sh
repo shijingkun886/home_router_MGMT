@@ -14,9 +14,10 @@ rm -rf /tmp/home/root && ln -s /tmp/mnt/sda1/admin /tmp/home/root
 #use the way below to add cron job
 cru a ScheduleSyncfile "0 4 * * * /tmp/mnt/sda1/MGMT/synctool/autosync.sh >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1"
 cru a PowerOnGen8 "0 19 * * 5 /tmp/mnt/sda1/MGMT/synctool/bootServer.sh >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1"
-cru a PowerOffGen8 "0 1 * * 1 /tmp/mnt/sda1/MGMT/synctool/offServer.sh >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1"
+cru a PowerOffGen8 "0 1 * * 1 /tmp/mnt/sda1/MGMT/synctool/offServer.sh 'Timing Poweroff' >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1"
 cru a UpdateAliyunDDNS "*/10 * * * * /jffs/scripts/ddns-start >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1"
 cru a GoogleHostsUpdate "1 6 * * * /tmp/mnt/sda1/MGMT/scripts/google_hosts.sh >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1"
+cru a PowerCheck "*/3 * * * * /tmp/mnt/sda1/MGMT/scripts/power_check.sh"
 
 #set alias
 [ `which vim`X != X ] && alias vi=vim

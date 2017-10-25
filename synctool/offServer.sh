@@ -2,8 +2,12 @@
 export PATH=$PATH:/opt/local/bin
 GEN8ServerIP="10.0.0.2"
 PLAYBOOK_HOME="/mnt/sda1/MGMT/synctool"
+OFF_REASON="Manual Poweroff"
+if [ "$1"a -ne a ]; then
+	OFF_REASON=$1
+fi
 
-
+echo `date +"%Y-%m-%d %H:%M:%S"`, $OFF_REASON >> /tmp/mnt/sda1/MGMT/synctool/log/gen8_off_history.log
 #date +"%Y%m%d%H%M%S" 
 
 #power off.
