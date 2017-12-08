@@ -1,6 +1,5 @@
 ---
-- hosts: gen8
-  
+- hosts: esxi
   tasks:
   - name: shutdown gen8 server by delay 10 seconds
-    win_command: shutdown /s /t 10
+    command: poweroff

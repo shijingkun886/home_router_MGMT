@@ -1,6 +1,6 @@
 #!/bin/sh
 export PATH=$PATH:/opt/local/bin
-GEN8ServerIP="10.0.0.2"
+GEN8ServerIP="10.0.0.3"
 logfile="/tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log"
 
 
@@ -45,7 +45,7 @@ src="/tmp/mnt/sda2/Monitor/HN1A005FAT10058"
 dst="root@10.0.0.5:/volume1/MediaStore/LocalStorage/Records/LroomDV/"
 echo "`date +"%Y%m%d%H%M%S"`:running lroom records rsync..."
 cp /tmp/mnt/sda2/Monitor/id_dropbear /tmp/home/root/.ssh
-rsync -zarv --include="*/" --include="*.mp4" --exclude="*" -e "ssh -y" $src  $dst --rsync-path=/usr/syno/bin/rsync 
+rsync -zarv --include="*/" --include="*.mp4" --exclude="*" -e "ssh -y" $src  $dst --rsync-path=/bin/rsync 
 echo "`date +"%Y%m%d%H%M%S"`:rsync lroom records finished."
 
 

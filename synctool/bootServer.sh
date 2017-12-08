@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ServerIP=10.0.0.2
+ServerIP=10.0.0.3
 
 
 echo "booting Gen8 server......"

@@ -18,6 +18,7 @@ echo `date +"%Y-%m-%d %H:%M:%S"`, $OFF_REASON >> /tmp/mnt/sda1/MGMT/synctool/log
 	#cp /tmp/mnt/sda2/Monitor/MGMT/id_rsa /tmp/home/root/.ssh
 	cd $PLAYBOOK_HOME
 	PATH=/opt/bin:$PATH ansible-playbook playbook/shutdown_dsm.yml
+	PATH=/opt/bin:$PATH ansible-playbook playbook/shutdown_win10.yml
 	sleep 60
-	echo "shutdown Gen8 Server......"
+	echo "shutdown Gen8(Esxi Host) Server......"
 	PATH=/opt/bin:$PATH ansible-playbook playbook/shutdown_gen8.yml
