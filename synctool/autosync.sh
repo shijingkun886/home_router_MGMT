@@ -34,7 +34,7 @@ if [ $current_state -ne 0 ]; then
 fi
 
 #waiting for DSM boot
-sleep 60
+sleep 90
 
 
 
