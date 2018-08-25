@@ -1,0 +1,18 @@
+#!/bin/sh -eu
+
+
+send_notify() {
+  
+  . $(dirname $0)/common/_log
+
+  TOKEN_FILE=${TOKEN_FILE:-$HOME/.nofity_config/token}
+
+  token=$(cat $TOKEN_FILE)
+
+  title=$(date +"%Y-%m-%d %H:%M:%S")" $1"
+  msg=$(echo -e '```'"\n$2\n"'```')
+
+
+  log "Preparing send notify, title=\"${title}\", message=\"${msg}\""
+  log "$(curl --data-urlencode text="$title" --data-urlencode desp="$msg" https://sc.ftqq.com/$token.send)"
+}

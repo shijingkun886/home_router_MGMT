@@ -1,0 +1,15 @@
+#!/bin/sh -eu
+
+
+log(){
+  LOGFILE=${LOGFILE:-/tmp/router_mgmt.log}
+
+
+  touch $LOGFILE
+
+  content=$1
+
+
+  now=$(date +"%Y-%m-%d %H:%M:%S")
+  echo "$now, $0, $content" >> $LOGFILE
+}
