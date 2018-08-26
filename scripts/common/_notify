@@ -5,7 +5,7 @@ send_notify() {
   
   . $(dirname $0)/common/_log
 
-  TOKEN_FILE=${TOKEN_FILE:-$HOME/.nofity_config/token}
+  TOKEN_FILE=${TOKEN_FILE:-$HOME/.notify_config/token}
 
   token=$(cat $TOKEN_FILE)
 
@@ -14,5 +14,5 @@ send_notify() {
 
 
   log "Preparing send notify, title=\"${title}\", message=\"${msg}\""
-  log "$(curl --data-urlencode text="$title" --data-urlencode desp="$msg" https://sc.ftqq.com/$token.send)"
+  log "Notify send result: $(curl --data-urlencode text="$title" --data-urlencode desp="$msg" https://sc.ftqq.com/$token.send)"
 }
