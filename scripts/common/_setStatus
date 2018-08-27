@@ -1,0 +1,10 @@
+#!/bin/sh -eu
+
+STATUS_FILE=${STATE_FILE:-$HOME/.gen8state}
+touch $STATUS_FILE
+
+setStatus(){
+  content=$1
+  echo ${content} > $STATUS_FILE
+}
+
