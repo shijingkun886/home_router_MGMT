@@ -1,3 +1,4 @@
 Thunder/
 synctool/log/
 synctool/playbook/*.retry
+log

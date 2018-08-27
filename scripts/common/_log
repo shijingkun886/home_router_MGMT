@@ -2,7 +2,7 @@
 
 
 log(){
-  LOGFILE=${LOGFILE:-/tmp/router_mgmt.log}
+  LOGFILE=${LOGFILE:-$HOME/log/router_mgmt.log}
 
 
   touch $LOGFILE
