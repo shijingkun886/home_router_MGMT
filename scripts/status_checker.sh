@@ -10,9 +10,7 @@ succ_count=`ping -c5 -W1 $gen8_address|grep received|awk -F' ' '{print $4}'`
 
 last_power_status=$(cat $STATUS_FILE|head -n 1)
 
-if [ $succ_count -lt 5 ]; then
-	current_status='off'
-fi
+[ $succ_count -lt 5 ] && current_status='off' || current_status='on'
 
 echo $current_status
 echo $last_power_status
