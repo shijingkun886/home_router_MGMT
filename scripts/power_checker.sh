@@ -1,4 +1,8 @@
-#/bin/sh
+#/bin/sh -eu
+
+
+. $(dirname $0)/common/_log
+. $(dirname $0)/common/_notify
 
 check_address="192.168.1.1"
 
@@ -11,10 +15,8 @@ fi
 
 power_status='on'
 if [ $succ_count -lt 5 ]; then
-	echo "home power outage"
-	power_status='off'
-	#power off server
-	/tmp/mnt/sda1/MGMT/synctool/offServer.sh 'Home Power Outage' >> /tmp/mnt/sda1/MGMT/synctool/log/dvrsync.log 2>&1
-
+	log "home power outage"
+	send_notify "PowerCheck" "home power outage"
+	$(dirname $0)/offServer.sh
 fi
 
