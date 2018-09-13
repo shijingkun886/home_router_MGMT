@@ -1,7 +1,6 @@
 #!/bin/sh
 
 . $(dirname $0)/common/_log
-. $(dirname $0)/common/_setStatus
 . $(dirname $0)/common/_notify
 
 ServerIP=10.0.0.3
@@ -23,4 +22,4 @@ while [ $t -lt 300 ]; do
 	sleep 1
 done
 echo "finish boot time:`date`"
-[ $state == 0 ] && setStatus "on" || (send_notify "bootServer" "boot failed in 300s." && exit 1)
+[ $state == 0 ] && dbus set gen8Status='on'|| (send_notify "bootServer" "boot failed in 300s." && exit 1)

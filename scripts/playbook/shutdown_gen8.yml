@@ -1,0 +1,5 @@
+---
+- hosts: esxi
+  tasks:
+  - name: shutdown gen8 server by delay 10 seconds
+    command: poweroff

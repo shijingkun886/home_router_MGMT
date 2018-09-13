@@ -1,0 +1,5 @@
+---
+- hosts: win10
+  tasks:
+  - name: shutdown win10 by delay 3 seconds
+    win_command: shutdown /s /t 3
