@@ -5,8 +5,8 @@
         access_log  /opt/var/nginx/log/shikun.win.access.log;
         error_log  /opt/var/nginx/log/shikun.win.error.log;
 
-        ssl_certificate      cert.pem;
-        ssl_certificate_key  cert.key;
+        ssl_certificate      /tmp/mnt/sda1/admin/shikun.win_ssl_cert_to_20190629/214808188000331.pem;
+        ssl_certificate_key  /tmp/mnt/sda1/admin/shikun.win_ssl_cert_to_20190629/214808188000331.key;
 
         ssl_session_cache    shared:SSL:1m;
         ssl_session_timeout  5m;
@@ -14,6 +14,9 @@
         ssl_ciphers  HIGH:!aNULL:!MD5;
         ssl_prefer_server_ciphers  on;
 
+	#location  ~ \.cgi$ {
+		
+	#}
 	location /photo {
 		proxy_pass http://10.0.0.5:80;
 	}
