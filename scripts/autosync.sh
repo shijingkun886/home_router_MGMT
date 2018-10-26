@@ -20,10 +20,7 @@ log "Gen8 current state: $current_state_title"
 
 [ $current_state -ne 0 ] && /tmp/mnt/sda1/MGMT/scripts/bootServer.sh && sleep 120
 
-#sleep 120
 log "`date +"%Y%m%d%H%M%S"`:running lroom records rsync..."
-#cp /tmp/mnt/sda2/Monitor/id_dropbear /tmp/home/root/.ssh
-#log "Sync content: $(rsync -zarv --include="*/" --include="*.mp4" --exclude="*" -e "ssh -y" $src  $dst --rsync-path=/bin/rsync )"
 log "Sync content: $(rsync -zarv --rsync-path=/bin/rsync --include="*/" --include="*.mp4" --exclude="*" $src  $dst )"
 log "`date +"%Y%m%d%H%M%S"`:rsync lroom records finished."
 

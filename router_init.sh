@@ -5,7 +5,7 @@
 swapon /tmp/mnt/sda2/myswap.swp
 
 #Setting up PATH
-export PATH=$PATH:/opt/local/bin
+export PATH=/opt/bin:/opt/local/bin:$PATH
 
 #Setting up git env var
 export GIT_SSH_COMMAND="/opt/bin/ssh -i ~/.ssh/id_rsa_git"
