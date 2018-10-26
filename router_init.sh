@@ -1,6 +1,8 @@
 #!/bin/sh
 
 #This script is used for init router after booted and external disk mounted.
+#Add swap 
+swapon /tmp/mnt/sda2/myswap.swp
 
 #Setting up PATH
 export PATH=$PATH:/opt/local/bin
@@ -10,6 +12,7 @@ export GIT_SSH_COMMAND="/opt/bin/ssh -i ~/.ssh/id_rsa_git"
 
 #Setting up root user home
 rm -rf /tmp/home/root && ln -s /tmp/mnt/sda1/admin /tmp/home/root
+export HOME=/tmp/mnt/sda1/admin
 
 #use the way below to add cron job
 cru a ScheduleSyncfile 	"0 4 * * * 	/tmp/mnt/sda1/MGMT/scripts/autosync.sh "
@@ -36,3 +39,4 @@ echo "addn-hosts=/etc/hosts.d/hosts.dnsmasq" >> /jffs/configs/dnsmasq.conf.add
 
 #Setting Firewall
 iptables -I INPUT -p tcp --dport 1443 -j ACCEPT
+iptables -I INPUT -p tcp --dport 2443 -j ACCEPT
