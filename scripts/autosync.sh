@@ -18,10 +18,10 @@ log "Gen8 current state: $current_state_title"
 
 
 
-[ $current_state -ne 0 ] && /tmp/mnt/sda1/MGMT/scripts/bootServer.sh && sleep 120
+[ $current_state -ne 0 ] && /tmp/mnt/sda1/MGMT/scripts/bootServer.sh && sleep 150
 
 log "`date +"%Y%m%d%H%M%S"`:running lroom records rsync..."
-log "Sync content: $(rsync -zarv --rsync-path=/bin/rsync --include="*/" --include="*.mp4" --exclude="*" $src  $dst )"
+log "Sync content: $(rsync -zarv --rsync-path=/bin/rsync --include="*/" --include="*.mp4" --exclude="*" $src  $dst 2>&1)"
 log "`date +"%Y%m%d%H%M%S"`:rsync lroom records finished."
 
 [ $current_state -ne 0 ] && /tmp/mnt/sda1/MGMT/scripts/offServer.sh
