@@ -8,7 +8,7 @@ scripts_path=$(dirname $0)
 export PATH=/opt/bin:/opt/local/bin:$PATH
 GEN8ServerIP="10.0.0.3"
 src="/tmp/mnt/sda2/Monitor/HN1A005FAT10058"
-dst="root@10.0.0.5:/volume1/MediaStore/LocalStorage/Records/LroomDV/"
+dst="root@10.0.0.5:/volume3/MediaStore/LocalStorage/Records/LroomDV/"
 
 sync
 current_state=$(ping $GEN8ServerIP -c1 -W1 > /dev/null ; echo $? )
